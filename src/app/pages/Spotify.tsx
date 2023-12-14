@@ -5,7 +5,7 @@ interface SpotifyProps {
 const Spotify: React.FC<SpotifyProps> = ({ embedded }) => {
   return (
     <div className="basis-1/2">
-      <div className="max-w-2xl h-75 mx-3 rounded-lg">
+      <div className="max-w-2xl h-75 rounded-lg sm:mb-6">
         {embedded()}
       </div>
     </div>
