@@ -7,7 +7,7 @@ const Quote = () => {
 					Build my startup <span className="font-semibold">itsonata</span> for my glorious purpose: 
 				</p>
 				<p className="italic font-bold mt-4 text-center">
-					"To create a better world with technology"
+					To create a better world with technology
 				</p>
 				<p></p>
 			</div>
