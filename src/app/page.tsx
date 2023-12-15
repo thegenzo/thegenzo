@@ -10,7 +10,7 @@ export default function Home() {
         <Quote />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-2 content-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-0 md:gap-2 content-center">
         <Spotify embedded={() => (
             <iframe src="https://open.spotify.com/embed/playlist/3SmnuQeMPeVQpD5D7brZvZ?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           )} 
